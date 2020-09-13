@@ -1,0 +1,15 @@
+#!/bin/dash
+
+__test_sh_vars="$(set | grep _echo_run_)"
+
+eval "
+echo_run() {
+$(cat ./echo-run.sh)
+}
+"
+
+echo_run "$@"
+
+if [ "$(set | grep _echo_run_)" != "$vars" ]; then
+  echo "Failed to unset variables."
+fi

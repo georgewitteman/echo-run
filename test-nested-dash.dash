@@ -1,0 +1,9 @@
+#!/bin/dash
+
+eval "
+echo_run() {
+$(cat ./echo-run.sh)
+}
+"
+
+echo_run "$@"
