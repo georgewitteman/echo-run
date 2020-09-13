@@ -2,7 +2,7 @@
 
 eval "
 echo_run() {
-$(cat ./echo-run.sh)
+$(cat ../echo-run.sh)
 }
 "
 

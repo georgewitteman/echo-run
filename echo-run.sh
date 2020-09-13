@@ -54,5 +54,3 @@ unset _echo_run_arg_needs_quotes _echo_run_current_arg _echo_run_current_arg_tem
 unset _echo_run_current_value _echo_run_part_before_single_quote _echo_run_part_needs_quotes
 
 "$@"
-
-# TODO: Put it all in a git repo

@@ -4,7 +4,7 @@ __test_sh_vars="$(set | grep _echo_run_)"
 
 eval "
 echo_run() {
-$(cat ./echo-run.sh)
+$(cat ../echo-run.sh)
 }
 "
 

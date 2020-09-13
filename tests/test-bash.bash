@@ -6,7 +6,7 @@ set +o posix
 
 eval "
 echo-run() {
-$(< ./echo-run.sh)
+$(< ../echo-run.sh)
 }
 "
 

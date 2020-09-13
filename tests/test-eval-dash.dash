@@ -2,7 +2,7 @@
 
 eval "
 echo_eval() {
-$(cat ./echo-eval.sh)
+$(cat ../echo-eval.sh)
 }
 "
 
